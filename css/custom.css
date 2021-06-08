@@ -1,0 +1,49 @@
+/* HEADER */
+#header {
+    background: var(--primary);
+}
+
+#header .nav-link{
+    color: var(--light);
+}
+
+@media (min-width: 992px) { 
+    #header .nav-link{
+        margin-left: 70px;
+    }
+
+    #header .navbar-brand {
+        margin-left: 10px;
+    }
+
+}
+
+@media (min-width: 1200px) { 
+    #header .nav-link{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #header .navbar-brand {
+        margin-left: 50px;
+    }
+
+}
+/* //HEADER */
+
+
+/* CAROUSEL */
+@keyframes is-bouncing {
+    to {
+        transform: translateY(30px);
+    }
+}
+/* //CAROUSEL */
+
+
+/* SOBRE */
+#sobre {
+    background: var(--secondary);
+    color: var(--light);
+}
+/* //SOBRE */

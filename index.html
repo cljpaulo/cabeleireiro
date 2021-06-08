@@ -14,44 +14,69 @@
 
     <!-- HEADER -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+    <div id="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto flex-nowrap">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link" href="#sobre">SOBRE</a>
+                <a class="nav-link" href="#equipe">EQUIPE</a>
+                <a class="nav-link" href="#cortes">CORTES</a>
+                <a class="nav-link" href="#contato">CONTATO</a>
+                <a class="nav-link" href="#agendamento">AGENDAMENTO</a>
+              </div>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
 
       <!-- //HEADER -->
+
+
+      <!-- CAROUSEL -->
+
+        <div id="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/principal.png" alt="Corte de cabelo">
+                    <div class="carousel-caption">
+                        <h1 style="color: var(--secondary);">BEM VINDO(A) ABC CABELEIREIRO!</h1>
+                        <h1 style="animation: is-bouncing 1s ease infinite; color: var(--secondary);">V</h1>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- //CAROUSEL -->
+
+
+      <!-- SOBRE -->
+        <div id="sobre">
+            <div class="container">
+                <h2>SOBRE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit, justo et cursus malesuada, magna est consectetur diam, eleifend eleifend odio sapien eget leo. Proin id facilisis magna. Curabitur congue erat massa, in scelerisque lacus facilisis in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum odio quam, tincidunt quis condimentum sed, consectetur eu neque. Vestibulum rutrum ipsum eros, nec feugiat nunc tempus id.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit, justo et cursus malesuada, magna est consectetur diam, eleifend eleifend odio sapien eget leo. Proin id facilisis magna. Curabitur congue erat massa, in scelerisque lacus facilisis in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum odio quam, tincidunt quis condimentum sed, consectetur eu neque. Vestibulum rutrum ipsum eros, nec feugiat nunc tempus id.</p>
+                <h4>MISSÃO</h4>
+                <p>Vestibulum ac aliquet orci. Sed nec arcu placerat, ornare augue id, ornare urna. Suspendisse vitae egestas lorem, sit amet vehicula ante.</p>
+                <h4>VISÃO</h4>
+                <p>Vestibulum ac aliquet orci. Sed nec arcu placerat, ornare augue id, ornare urna. Suspendisse vitae egestas lorem.</p>
+                <h4>VALORES</h4>
+                <p>Vestibulum ac aliquet orci. Sed nec arcu placerat, ornare augue id, ornare urna. Suspendisse vitae egestas lorem, sit amet vehicula ante.</p>
+                <img src="assets/salao.png" class="img-fluid" style="text-align: center;" alt="Salão">
+            </div>
+        </div>
+
+      <!-- //SOBRE -->  
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
