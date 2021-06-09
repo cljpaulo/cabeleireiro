@@ -1,3 +1,10 @@
+/* BODY */
+body {
+    background: var(--secondary);
+}
+/* //BODY */
+
+
 /* HEADER */
 #header {
     background: var(--primary);
@@ -46,4 +53,18 @@
     background: var(--secondary);
     color: var(--light);
 }
+
+#sobre img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 /* //SOBRE */
+
+
+/* EQUIPE */
+#equipe {
+    background: var(--light);
+    color: var(--secondary);
+}
+
+/* //EQUIPE */
