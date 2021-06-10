@@ -118,3 +118,22 @@ body {
     color: var(--light);
 }
 /* //FOOTER */
+
+
+/* CARD AGENDAMENTO */
+#agendamento {
+    width: 100%; float: left; text-align: center; padding: 3% 4%; background: url(../assets/young-man-at-barbershop-trimming-hair\ 1.png) no-repeat fixed;
+}
+
+#agendamento .card {
+    background: black;
+    color: var(--light);
+    margin-top: 30px;
+    opacity: 90%;
+}
+
+#agendamento .card button {
+    background: var(--secondary);
+    color: var(--light);
+    border-radius: 50px;
+}
